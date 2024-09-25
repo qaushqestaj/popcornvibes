@@ -71,7 +71,7 @@ export default function StarRating({
 function Star({ onRate, full, onHoverIn, onHoverOut, color, size }) {
   const starStyle = {
     width: `${size}px`,
-    height: '48px',
+    height: '24px',
     display: 'block',
     cursor: 'pointer',
   };
